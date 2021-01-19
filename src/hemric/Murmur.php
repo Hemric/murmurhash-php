@@ -12,16 +12,16 @@
  *
  */
 
-namespace lastguest;
+namespace hemric;
 
 class Murmur {
 
   /**
    * @param  string $key   Text to hash.
-   * @param  number $seed  Positive integer only
-   * @return number 32-bit positive integer hash
+   * @param  int $seed  Positive integer only
+   * @return int 32-bit positive integer hash
    */
-  public static function hash3_int(string $key, int $seed=0) : int {
+  public static function hash3_int(string $key, int $seed=0): int {
     $key  = array_values(unpack('C*', $key));
     $klen = count($key);
     $h1   = $seed < 0 ? -$seed : $seed;
@@ -61,10 +61,10 @@ class Murmur {
 
   /**
    * @param  string $key   Text to hash.
-   * @param  number $seed  Positive integer only
+   * @param  int $seed  Positive integer only
    * @return string
    */
-  public static function hash3(string $key, int $seed=0) : string {
+  public static function hash3(string $key, int $seed=0): string {
     return base_convert(sprintf("%u\n", self::hash3_int($key, $seed)), 10, 32);
   }
 }

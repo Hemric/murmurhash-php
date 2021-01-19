@@ -25,17 +25,17 @@ You can retrieve an hash via `hash3` static method of class `Murmur`
 
 ```php
 <?php
-use lastguest\Murmur;
+use hemric\Murmur;
 
 echo Murmur::hash3("Hello World");
 // cnd0ue
 ```
 
-You can pass a precise seed positive integer as second parameter 
+You can pass a precise seed positive integer as second parameter
 
 ```php
 <?php
-use lastguest\Murmur;
+use hemric\Murmur;
 
 echo Murmur::hash3("Hello World", 1234567);
 // qtq2u
@@ -45,7 +45,7 @@ If you need the integer hash, use the `hash3_int` method
 
 ```php
 <?php
-use lastguest\Murmur;
+use hemric\Murmur;
 
 echo Murmur::hash3_int("Hello World");
 // 427197390
