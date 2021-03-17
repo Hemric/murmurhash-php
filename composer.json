@@ -1,5 +1,5 @@
 {
-  "name": "lastguest/murmurhash",
+  "name": "hemric/murmurhash",
   "type": "library",
   "description": "MurmurHash3 Hash (php8)",
   "homepage": "https://github.com/Hemric/murmurhash-php",
