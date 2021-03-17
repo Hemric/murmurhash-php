@@ -14,7 +14,7 @@ Porting of the MurmurHash3 JavaScript version created by Gary Court (https://git
 Use [composer](https://getcomposer.org/download/) :
 
 ```bash
-composer require lastguest/murmurhash
+composer require hemric/murmurhash
 ```
 
 ## Usage
