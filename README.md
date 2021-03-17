@@ -1,6 +1,6 @@
 # MurmurHash3
 
-PHP Implementation of MurmurHash3 (forked from: https://github.com/lastguest/murmurhash-php)
+PHP(8) Implementation of MurmurHash3 (forked from: https://github.com/lastguest/murmurhash-php)
 
 More information about these algorithms can be found at:
 
